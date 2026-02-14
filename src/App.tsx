@@ -299,9 +299,9 @@ export default function App() {
   };
 
   const rewards = [
-    'Reward: One kiss voucher',
-    'Reward: Dinner DLC',
+    'Reward: One french kiss voucher',
     'Reward: Cuddle expansion pack',
+    'Reward: Unlimited amount of passionate love making sessions',
     ...(unlockedSecret ? ['Reward: Unlimited hugs license'] : []),
   ];
 
