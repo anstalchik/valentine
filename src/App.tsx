@@ -563,7 +563,7 @@ export default function App() {
                 </div>
                 <div className="flex-shrink-0">
                   <img
-                    src="/victory-hug.png"
+                    src={`${import.meta.env.BASE_URL}victory-hug.png`}
                     alt=""
                     className="w-40 h-auto object-contain"
                   />
