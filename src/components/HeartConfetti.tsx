@@ -15,7 +15,7 @@ export default function HeartConfetti({ show }: { show: boolean }) {
   useEffect(() => {
     if (!show || prefersReducedMotion) return;
 
-    const newHearts: Heart[] = Array.from({ length: 20 }, (_, i) => ({
+    const newHearts: Heart[] = Array.from({ length: 50 }, (_, i) => ({
       id: i,
       x: Math.random() * 100,
       y: -10,
